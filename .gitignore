@@ -1,0 +1,5 @@
+# ignore files:
+*.bit
+*.ucf
+*_tb.vhd
+*_tp.vhd

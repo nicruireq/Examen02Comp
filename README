@@ -1,0 +1,29 @@
+Copyright (C) 2017-2018 Nicolas Ruiz Requejo
+
+
+Examen02Comp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Examen02Comp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Examen02Comp.  If not, see <https://www.gnu.org/licenses/>.
+
+------------------------------------------------------------------------
+
+Examen02Comp is a simpler secuential processor for academic 
+and teaching purpose write in VHDL. The ISA consists of seven
+instructions LD, ST, ADD, SUB, INC, DEC and BEQ. Architecture
+is Register-Register. These uses same memory to allocate data and 
+code. Exam02Comp provides a rudimental mechanism to protect 
+memory data segment area of instructions execution.
+
+This repository provides documentation which gives block diagram 
+design's, FSM graph and example of program to test functionality.
+
+The design has been tested in Basys2 board.
